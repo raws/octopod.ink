@@ -12,15 +12,3 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-
-.octopus {
-  z-index: 1;
-}
-
-.sun-glow {
-  width: 100vw;
-  height: 100vh;
-  background: radial-gradient(ellipse 75vw 75vh at 85vw -25vh, #4072a5 1%, #1f395e 50%, transparent);
-  position: absolute;
-  z-index: 0;
-}
