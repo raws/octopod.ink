@@ -1,8 +1,8 @@
-html {
+html.ocean {
   background: linear-gradient(#12223c, #070d1b) no-repeat center center fixed;
 }
 
-body {
+html.ocean > body {
   margin: 0;
 }
 
@@ -11,4 +11,40 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
+}
+
+header {
+  border-bottom: 1px solid darkgray;
+}
+
+header > p {
+  font-style: italic;
+  font-variant-caps: small-caps;
+}
+
+kbd {
+  background-color: #ececec;
+  border-top: 1px solid #f6f6f6;
+  border-bottom: 2px solid #dfdfdf;
+  border-radius: 5px;
+  padding: 1px 5px;
+}
+
+.sidebar {
+  float: right;
+  margin-left: 1vw;
+  width: 40vw;
+}
+
+.sidebar > * {
+  display: block;
+}
+
+.sidebar img {
+  width: 100%;
+}
+
+.sidebar p {
+  font-size: 0.9rem;
+  font-style: italic;
 }
